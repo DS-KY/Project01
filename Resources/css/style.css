@@ -21,7 +21,9 @@ h4 {
 }
 
 h5 {
-    font-size: 18px
+    font-size: 18px;
+    font-style: italic;
+    align-items: center;
 }
 
 h6 {
@@ -41,7 +43,6 @@ html {
     font: normal 16px sans-serif;
     color: #555;
 }
-
 
 nav {
     list-style: none;
@@ -88,7 +89,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-     text-align: center;
+    text-align: center;
     align-content: center;
 }
 
@@ -170,33 +171,38 @@ header nav li {
     }
 }
 
-        header { background-image: url(resources/images/bannaAerial.jpg);
+        header { background-image: url(assets/img/bannaAerial.jpg);
          background-size: cover;
          background-repeat: no-repeat;   
 }
 
 
 
-/* Hero Styles*/
+/*header image
+.headerimage {
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    z-index: -1;
+    background-color: transparent;
+}
+*/
+
+
+/* Hero Styles*/ 
 .hero {
     position: relative;
     justify-content: center;
     text-align: center;
-      min-height: 50vh;
+      min-height: 25vh;
     color: white;
 }
 
-/* Hero Styles
-.hero .banner-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40%;
-    background-size: cover;
-    z-index: 999;
-    background-color: #80a3db;
-}*/
+/* Hero Styles*/ 
+
 
 .hero .background-image {
    
@@ -209,7 +215,16 @@ header nav li {
     z-index: -1;
     background-color: #80a3db;
 }
-
+.hero .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-size: cover;
+    z-index: -1;
+    background-color: #80a3db;
+}
 
 .hero h1 {
     font: bold 60px "Open Sans", sans-serif;
@@ -255,8 +270,6 @@ header nav li {
         padding: 15px 40px;
     }
 }
-
-
 
 /* comics Section */
 .comics .grid li {
