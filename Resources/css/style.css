@@ -431,3 +431,15 @@ footer p {
 
 
 /*************************************/
+table {margin: auto;
+border: 5px color:#ooo;
+width:600px;
+border-spacing: 0}
+
+td, th {border: 1px solid #000066;
+padding: 0.5em;
+font-family:sans-serif;}
+
+caption {font-family: sans-serif; font-weight: bold;font-size: 1.2em; padding: 0.5em}
+
+.altrow {background-color: #teal;}
